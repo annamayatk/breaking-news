@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breaking News</title>
+
+    <!-- bootstrap CSS  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!--css de stilo -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!--header usando o menu de navegacao do boostrap-->
+    <header>
+        <!--a classe bg-dark do bootstrap que define a cor do menu-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Breaking News</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/about.html">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contact.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--main significa o conteudo principal da pagina-->
+    <main class="container mt-4">
+      <h1>Últimas Notícias</h1>
+
+      <article>
+        <h2>Leão XIV: Robert Prevost é eleito novo Papa da Igreja Católica</h2>
+        <!--inserindo imagem da noticia-->
+        <img src="./img/novo-papa.jpg" alt="Papa eleito" />
+        <p>
+          O cardeal norte-americano Robert Francis Prevost, 69, foi eleito nesta
+          quinta-feira, 8, como o novo Papa da Igreja Católica, adotando o nome
+          de Leão XIV. A eleição ocorreu no segundo dia do conclave, após quatro
+          votações, e foi anunciada ao mundo com a tradicional fumaça branca
+          saindo da chaminé da Capela Sistina, no Vaticano, às 13h09 (horário de
+          Brasília).Pouco mais de uma hora depois, Prevost fez sua primeira
+          aparição pública como pontífice, dirigiu-se aos fiéis reunidos na
+          Praça de São Pedro com uma mensagem de paz, inclusão e Justiça. Ele
+          assume a vaga deixada pelo argentino Jorge Mario Bergoglio. Com a
+          eleição de Leão XIV, Prevost torna-se o 267º Papa da história da
+          Igreja Católica e o primeiro pontífice nascido nos Estados Unidos. O
+          último Papa a adotar o nome Leão foi Gioacchino Pecci, que pontificou
+          de 1878 a 1903.
+        </p>
+
+        <h2 class="comentario-titulo">Comentários:</h2>
+        <div id="comentarios-1"></div>
+      </article>
+
+
+      <article>
+        <h2>INSS bloqueia descontos de consignado a todos os beneficiários</h2>
+
+        <img src="./img/inss.jpg" alt="INSS bloqueio de consignados"/>
+        <p>
+          O novo presidente do INSS (Instituto Nacional do Seguro Social),
+          Gilberto Waller Junior, determinou o bloqueio automático de descontos
+          de empréstimos consignados em todas as aposentadorias e pensões,
+          “independente da data de concessão do benefício”. Agora, só poderão
+          ser feitos se o beneficiário voluntariamente desbloquear o débito por
+          meio dos serviços disponibilizados pelo instituto. A medida é mais um
+          desdobramento do caso das fraudes no INSS. Segundo a PF (Polícia
+          Federal), o esquema envolvia entidades de classe que realizavam
+          descontos diretamente nos benefícios de aposentados e pensionistas,
+          sem autorização. Os valores eram cobrados como mensalidades
+          associativas — porém, sem prestação efetiva de serviços.
+        </p>
+
+        <h2 class="comentario-titulo">Comentários:</h2>
+        <div id="comentarios-2"></div>
+      </article>
+
+
+      <article>
+        <h2>Dia das Mães: afinal, mãe de pet é mãe ou não?</h2>
+        <img src="./img/mae-de-pet.jpg" alt="Mãe de pet" />
+        <p>
+          O Dia das Mães é celebrado no próximo domingo (11) e diversas mulheres
+          celebram a data mesmo sem ter filhos, mas por se considerarem mães de
+          pets. Biologicamente, os pets não são filhos, mas do ponto de vista
+          emocional, o vínculo é real e para a maioria profundo. Os tutores
+          cuidam da alimentação, saúde, bem-estar, educação, estética e oferecem
+          muito carinho e amor incondicional, exatamente como fariam com um
+          filho humano.
+        </p>
+
+        <h2 class="comentario-titulo">Comentários:</h2>
+        <div id="comentarios-3"></div>
+      </article>
+    </main>
+
+    <!--rodape usando classes do bootstrap tambem-->
+    <footer class="bg-dark text-white text-center py-2 mt-4">
+        <p>Breaking News &copy; 2025</p>
+        <div>
+          <a href="https://www.facebook.com" target="_blank" class="text-white mx-3">Facebook</a>
+          <a href="https://www.twitter.com" target="_blank" class="text-white mx-3">Twitter</a>
+          <a href="https://www.instagram.com" target="_blank" class="text-white mx-3">Instagram</a>
+        </div>
+      </footer>
+      
+
+    <!-- Bootstrap javascript  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

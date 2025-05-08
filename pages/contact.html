@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contato - Breaking News</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- header em todas paginas, usando bootstrap -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">Breaking News</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- conteudo principal -->
+    <main class="container mt-4">
+      <h1>Contato</h1>
+      <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
+
+      <!-- usando POST, criando um formulario usando o site formsubmit que encaminha pro meu email -->
+      <form
+        action="https://formsubmit.co/anna.atkinson@aluno.senai.br"
+        method="POST"
+      >
+        <div class="mb-3">
+          <!--usando bootstrap nessa classe-->
+
+          <label for="name" class="form-label">Nome</label>
+          <!--usando bootstrap para estilizar o formulario, com form-control por exemplo-->
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensagem</label>
+          <textarea
+            class="form-control"
+            id="message"
+            name="message"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+         
+        
+        <!-- btn primary tabem é classe do bootstrap-->
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </main>
+
+    <!-- Rodape igual em tds as paginas-->
+    <footer class="bg-dark text-white text-center py-2 mt-4">
+        <p>Breaking News &copy; 2025</p>
+        <div>
+          <a href="https://www.facebook.com" target="_blank" class="text-white mx-3">Facebook</a>
+          <a href="https://www.twitter.com" target="_blank" class="text-white mx-3">Twitter</a>
+          <a href="https://www.instagram.com" target="_blank" class="text-white mx-3">Instagram</a>
+        </div>
+      </footer>
+      
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
