@@ -1,6 +1,7 @@
 Breaking News
 
 Descrição
+
 O Breaking News é um site de notícias que exibe conteúdo atualizado sobre diferentes temas. Utilizando HTML, CSS e JavaScript, ele permite uma navegação interativa e agradável, com foco na responsividade e acessibilidade. O projeto segue boas práticas de desenvolvimento e usa frameworks modernos, como o Bootstrap, para garantir um layout limpo e funcional em diferentes dispositivos.
 
 Tecnologias Usadas
