@@ -3,7 +3,7 @@ Descrição
 O Breaking News é um site de notícias que exibe conteúdo atualizado sobre diferentes temas. Utilizando HTML, CSS e JavaScript, ele permite uma navegação interativa e agradável, com foco na responsividade e acessibilidade.
 O projeto segue boas práticas de desenvolvimento e usa frameworks modernos como o Bootstrap, garantindo um layout limpo e funcional em diferentes dispositivos.
 
-- Tecnologias Usadas
+🛠️ Tecnologias Usadas
 HTML5 – Estruturação semântica do conteúdo
 
 CSS3 – Estilização e personalização visual
@@ -18,7 +18,7 @@ GitHub – Controle de versão do código
 
 Netlify – Deploy da aplicação online
 
-- Requisitos Atendidos
+✅ Requisitos Atendidos
 HTML Estruturado – Uso de HTML semântico
 
 Estilo com CSS – Visual atrativo e responsivo
@@ -39,6 +39,6 @@ Uso de API (GET) – Exibição de comentários dinâmicos
 
 Deploy no Netlify
 
-- Acesse o site:
-Clique aqui para ver o site online
+🔗 Acesse o site:
+👉 Clique aqui para ver o site online
 
