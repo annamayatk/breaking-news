@@ -8,7 +8,7 @@ O projeto segue boas práticas de desenvolvimento e usa frameworks modernos como
 
 ---
 
-## 🛠️ Tecnologias Usadas
+## Tecnologias Usadas
 
 - **HTML5** – Estruturação semântica do conteúdo  
 - **CSS3** – Estilização e personalização visual  
@@ -20,7 +20,7 @@ O projeto segue boas práticas de desenvolvimento e usa frameworks modernos como
 
 ---
 
-## ✅ Requisitos Atendidos
+## Requisitos Atendidos
 
 - **HTML Estruturado** – Uso de HTML semântico  
 - **Estilo com CSS** – Visual atrativo e responsivo  
@@ -35,6 +35,6 @@ O projeto segue boas práticas de desenvolvimento e usa frameworks modernos como
 
 ---
 
-## 🔗 Acesse o site:
+## Acesse o site:
 
-[👉 Clique aqui para ver o site online](https://681d37c26b863a92cfa8e8b2--neon-pony-35e063.netlify.app/)
+[Clique aqui para ver o site online](https://681d37c26b863a92cfa8e8b2--neon-pony-35e063.netlify.app/)
