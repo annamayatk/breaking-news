@@ -21,7 +21,8 @@ GitHub: Controle de versão do código.
 
 Netlify: Deploy da aplicação online
 
-Requisitos Atendidos
+Requisitos Atendidos:
+
 HTML Estruturado: Utilização de HTML semântico para organizar e garantir acessibilidade ao conteúdo da página.
 
 Estilo com CSS: Aplicação de estilos visuais com CSS, garantindo que as páginas sejam atraentes e responsivas para uma boa experiência do usuário.
